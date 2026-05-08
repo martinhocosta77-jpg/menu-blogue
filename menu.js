@@ -15,9 +15,9 @@
 <div class="MsoNormal">
 <span style="color: grey;"><a href="http://livrodepinturas.blogspot.pt/"><span style="color: red;">Livro de Pinturas</span></a><o:p></o:p></span></div>
 
-<span style="color: white;">-------------------------------<o:p></o:p></span>
+
 2025
-<div class="MsoNormal">
+
 <span style="color: grey;"><a href="https://exposicoes2025.blogspot.com/p/contraforte.html">Contraforte</a></span>
 <div class="MsoNormal">
 <span style="color: grey;"><a href="https://exposicoes2025.blogspot.com/p/forte.html">Forte</a></span>
