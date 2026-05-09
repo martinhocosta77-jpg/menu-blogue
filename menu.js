@@ -18,7 +18,7 @@
   <div style="margin-bottom: 10px; color:#000;">
     2026<br>
     <a href="https://dreamdistortion2026.blogspot.com/" style="text-decoration:none; color:#666;">Dream Distortion</a><br>
-    <a href="https://exposicoes2025.blogspot.com/p/forte.html" style="text-decoration:none; color:#666;">Gaginete de Curiosidades</a>
+    <a href="https://2026gabinetedecuriosidades.blogspot.com/" style="text-decoration:none; color:#666;">Gaginete de Curiosidades</a>
   </div>
 
   <div style="margin-bottom: 10px; color:#000;">
