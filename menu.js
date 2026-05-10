@@ -1,7 +1,6 @@
 <div style="text-align: left !important; font-family: sans-serif; line-height: 1.5;">
 
   <div style="margin-bottom: 15px;">
-    <a href="http://martinho-costa.blogspot.pt/" style="text-decoration:none; color:#000;">Martinho Costa</a><br>
     <a href="http://martinho-costa.blogspot.pt/p/cv.html" style="text-decoration:none; color:#000;">Biography</a><br>
     <a href="http://martinhocostatexts.blogspot.pt/" style="text-decoration:none; color:#000;">Texts</a><br>
     <a href="http://martinho-costa.blogspot.pt/p/contact.html" style="text-decoration:none; color:#000;">Contact</a><br>
