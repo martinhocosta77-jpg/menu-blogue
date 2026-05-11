@@ -1,1 +1,132 @@
+/* --- ESTRUTURA GERAL --- */
+body { font: normal 12px 'Trebuchet MS', sans-serif; color: #000; background: #fff; margin: 0; padding: 0; }
 
+.container-geral {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 96%;
+  max-width: 1700px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+@media (min-width: 1024px) {
+  .container-geral { grid-template-columns: 220px 1fr 220px; }
+}
+
+.coluna-esquerda, .coluna-direita { padding-top: 20px; }
+@media (min-width: 1024px) { .coluna-esquerda, .coluna-direita { padding-top: 140px; } }
+
+.coluna-central { padding: 20px 0; text-align: center; min-width: 0; }
+
+/* --- COLUNA DIREITA (ALINHAMENTO) --- */
+.coluna-direita { text-align: left; }
+.coluna-direita h2 { 
+  font-size: 13px; 
+  font-weight: bold; 
+  margin: 0 0 10px 0; 
+  color: #000;
+}
+/* Remove o recuo e os pontos da lista de tags */
+.coluna-direita ul { 
+  list-style: none !important; 
+  padding: 0 !important; 
+  margin: 0 !important; 
+}
+.coluna-direita li { 
+  padding: 0 !important; 
+  margin: 0 0 5px 0 !important; 
+}
+.coluna-direita a { 
+  color: #666; 
+  text-decoration: none; 
+  font-size: 11px;
+}
+.coluna-direita a:hover { color: #000; }
+
+/* --- MENU ESQUERDO --- */
+.nome-home { font-weight: bold; color: #000 !important; text-decoration: none; display: block; margin-bottom: 10px; font-size: 13px; }
+.menu-wrapper { position: relative; display: block; }
+.icon-menu { display: inline-block; cursor: pointer; padding: 5px 0; }
+
+.bar { 
+  display: block; 
+  width: 22px; 
+  height: 2px; 
+  background-color: #000 !important; 
+  margin: 4px 0; 
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: #fff;
+  min-width: 250px;
+  z-index: 99999 !important;
+  padding: 15px 0;
+  text-align: left;
+}
+
+.menu-wrapper:hover .menu-content {
+  display: block;
+}
+
+#github-content {
+  display: block;
+  width: 100%;
+}
+/* --- RESPONSIVIDADE DAS IMAGENS --- */
+.post-body img, .post-body .separator img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coluna-central {
+  overflow: hidden;
+  word-wrap: break-word;
+}
+.Header h1, .header-inner .t {
+    display: none !important;
+}
+
+/* --- BOTÃO VOLTAR AO TOPO --- */
+#backToTop {
+  display: none; /* Escondido por padrão */
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 18px;
+  transition: opacity 0.3s, background-color 0.3s;
+}
+
+#backToTop:hover {
+  background-color: #555;
+}
+
+/* Ajuste para mobile para não tapar conteúdo importante */
+@media (max-width: 768px) {
+  #backToTop {
+    bottom: 20px;
+    right: 20px;
+    padding: 8px 12px;
+    font-size: 16px;
+    opacity: 0.7;
+  }
+}
+/* Esconder o aviso de cookies do Blogger */
+.cookie-choices-info {
+  display: none !important;
+}
